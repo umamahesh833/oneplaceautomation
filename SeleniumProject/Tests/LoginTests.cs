@@ -10,23 +10,21 @@ namespace SeleniumProject.Tests
     class LoginTests
     {
 
-        [Test]
-        public void verifylogin()
-        {
-            helpers ObjHelpers = new helpers();
-            Login ObjLoginpage = new Login();
+        //[Test]
+        //public void verifylogin()
+        //{
 
-            ObjHelpers.AppLaunch();
-            ObjLoginpage.EnterUsername();
-            ObjLoginpage.Enterpassword();
-            ObjLoginpage.ClickOkButton();
-          bool teststatus =  ObjLoginpage.VerifySuccessmessage();
+        //    ObjHelpers.AppLaunch();
+        //    ObjLoginpage.EnterUsername();
+        //    ObjLoginpage.Enterpassword();
+        //    ObjLoginpage.ClickOkButton();
+        //  bool teststatus =  ObjLoginpage.VerifySuccessmessage();
 
-            if (teststatus == true)
-            {Assert.Pass();}else{Assert.Fail();}
+        //    if (teststatus == true)
+        //    {Assert.Pass();}else{Assert.Fail();}
 
 
 
-        }
+        //}
     }
 }

@@ -9,13 +9,13 @@ namespace SeleniumProject
 {
     class Logouttests
     {
-        [Test]
-        [Category("L1")]
-        public void Verifylogout()
-        {
+        //[Test]
+        //[Category("L1")]
+        //public void Verifylogout()
+        //{
 
-            Console.WriteLine("VerifyLogin test");
-        }
+        //    Console.WriteLine("VerifyLogin test");
+        //}
 
 
     }
