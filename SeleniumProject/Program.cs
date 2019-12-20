@@ -30,7 +30,7 @@ namespace SeleniumProject
             Driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
 
-
+            added line of code
 
             IWebElement link = Driver.FindElement(By.XPath("(//a[text()='Electronics'])[2]"));
             IWebElement Link2 = Driver.FindElement(By.XPath("//a[text()='News']"));
