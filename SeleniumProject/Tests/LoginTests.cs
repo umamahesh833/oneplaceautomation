@@ -23,13 +23,7 @@ namespace SeleniumProject.Tests
           bool teststatus =  ObjLoginpage.VerifySuccessmessage();
 
             if (teststatus == true)
-            {
-                Assert.Pass();
-            }
-            else
-            {
-                Assert.Fail();
-            }
+            {Assert.Pass();}else{Assert.Fail();}
 
 
 
